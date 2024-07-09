@@ -73,3 +73,11 @@ for in loop work:
 array,obj,
 it not work in map data structure in javascipt;
 */
+
+// forEach loop javascript]
+//forEach loop pass three parameter into callback function in javascript (element,index,arr)
+// let arr=[1,3,4,5,6];
+
+// arr.forEach((element,index,arr) => {
+//     console.log(element,index,arr)
+// });
