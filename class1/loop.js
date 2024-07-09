@@ -81,3 +81,25 @@ it not work in map data structure in javascipt;
 // arr.forEach((element,index,arr) => {
 //     console.log(element,index,arr)
 // });
+// array fliter
+// let arr=[1,3,4,5,6];
+// const fliterValue=arr.filter((item)=> item>4);
+// console.log(fliterValue)
+//if i taking scope here thats why must be return here otherwise it not work
+
+// const fliterValue=arr.filter((item)=> {
+//     item>4;
+// });
+// console.log(fliterValue)
+
+// const fliterValue=arr.filter((item)=> {
+//    return item>4;
+// });
+// console.log(fliterValue)
+
+// let arr=[1,3,4,5,6];
+// const arr1= arr.slice(3,5)
+// console.log(arr1);
+// let arr=[1,3,4,5,6];
+// const mapval=arr.map((item)=>item*10);
+// console.log(mapval);
