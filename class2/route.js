@@ -16,7 +16,7 @@ const hostname='127.0.0.1';
 
 
 const server=http.createServer((req,res)=>{
-    if(req.url==='/')
+    if(req.url==='/') res.end("main page it is")
     // res.writeHead(200, 'okay', {
     //     'Content-Type': 'text/html',
     //     'Custom-Header': 'CustomValue'
